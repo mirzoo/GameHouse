@@ -727,6 +727,32 @@ img {
 .header-link:hover {
   color: #45B460;
 }
+.header-link__btn-login {
+  color: #FFFFFF;
+  padding: 16px 40px;
+  border-radius: 50px;
+  background-color: #45B460;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+}
+.header-link__btn-login:hover {
+  box-shadow: -4px 10px 38px -2px rgba(0, 182, 5, 0.49);
+  color: #FFFFFF;
+}
+.header-link__btn-regist {
+  color: #FFFFFF;
+  padding: 16px 40px;
+  border-radius: 50px;
+  border: 1px solid #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+}
+.header-link__btn-regist:hover {
+  border: 1px solid #45B460;
+  color: #45B460;
+}
 .header-burger {
   display: none;
 }
